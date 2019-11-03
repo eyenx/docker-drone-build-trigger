@@ -13,4 +13,4 @@ LAST_BUILD=$(drone build last $DRONE_REPO|grep Number | cut -d: -f2)
 
 # restart build
 
-drone build restart $DRONE_REPO $LAST_BUILD $DRONE_ARGS
+drone build restart $DRONE_REPO $LAST_BUILD $DRONE_ARGS &>/dev/null && echo "build started, bye!" # do not output sensitive information
