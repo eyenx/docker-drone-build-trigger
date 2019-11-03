@@ -3,7 +3,7 @@
 
 [![Circle CI](https://circleci.com/gh/eyenx/docker-drone-build-trigger.svg?style=svg)](https://circleci.com/gh/eyenx/docker-drone-build-trigger)
 
-This docker images sole purpose is to trigger a drone build
+This docker image sole purpose is to trigger a drone build
 
 ## Configuration via environment variables:
 
