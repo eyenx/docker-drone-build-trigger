@@ -1,7 +1,5 @@
-FROM drone/cli:alpine
-
-ADD entrypoint.sh /entrypoint.sh
-
-RUN chmod +x /entrypoint.sh
-
-ENTRYPOINT /entrypoint.sh
+	
+FROM	drone/cli:alpine
+ADD	entrypoint.sh	/entrypoint.sh
+RUN	chmod +x /entrypoint.sh
+ENTRYPOINT	["/entrypoint.sh"]
