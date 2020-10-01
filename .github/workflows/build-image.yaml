@@ -1,4 +1,4 @@
-name: Release Container Image
+name: build image
 
 on:
   schedule:
