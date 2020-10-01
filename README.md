@@ -1,4 +1,3 @@
-
 # docker-drone-build-trigger
 
 ![](https://github.com/eyenx/docker-drone-build-trigger/workflows/build%20image/badge.svg)
