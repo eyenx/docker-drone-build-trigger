@@ -8,6 +8,9 @@ on:
     branches: master
     tags:
       - '*'
+  create:
+    tags:
+      - '*'
 
 jobs:
   build-container:
