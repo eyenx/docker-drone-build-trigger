@@ -6,9 +6,8 @@ on:
   pull_request:
   push:
     branches: master
-  create:
     tags:
-      - '*'
+      - 'v*'
 
 jobs:
   build-container:
