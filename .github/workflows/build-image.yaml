@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '3 3 * * *'
   pull_request:
+  release:
+    types: [created]
   push:
     branches: master
     tags:
