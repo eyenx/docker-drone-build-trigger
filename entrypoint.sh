@@ -10,4 +10,4 @@ test -z $COMMIT_SHA && COMMIT_SHA=$(drone build info --format "{{ .After }}" $DR
 # create build
 
 env
-drone build create $DRONE_ARGS --commit $COMMIT_SHA $DRONE_REPO &>/dev/null && echo "build started, bye!" # do not output sensitive information
+drone build create $DRONE_ARGS --commit $COMMIT_SHA $DRONE_REPO 
