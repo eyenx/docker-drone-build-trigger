@@ -11,4 +11,5 @@ DRONE_SERVER=https://mydroneserver.com
 DRONE_TOKEN=INSERTHEREYOURTOKEN
 DRONE_REPO=myusername/myrepo
 DRONE_ARGS="-p myparam=true -p otherparam=else" # optional
+COMMIT_SHA="xxxx" # takes latest if none given
 ```
