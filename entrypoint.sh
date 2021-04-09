@@ -9,5 +9,5 @@ test -z $DRONE_REPO && echo "Please define a \$DRONE_REPO (a.e. myuser/myrepo)" 
 test -z $COMMIT_SHA && COMMIT_SHA=$(drone build info --format "{{ .After }}" $DRONE_REPO)
 # create build
 
-env
-drone build create $DRONE_ARGS --commit $COMMIT_SHA $DRONE_REPO 
+env | grep COMMIT
+echo drone build create $DRONE_ARGS --commit $COMMIT_SHA $DRONE_REPO 
