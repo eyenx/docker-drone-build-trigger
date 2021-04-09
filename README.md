@@ -10,5 +10,5 @@ This docker image sole purpose is to trigger a drone build
 DRONE_SERVER=https://mydroneserver.com
 DRONE_TOKEN=INSERTHEREYOURTOKEN
 DRONE_REPO=myusername/myrepo
-DRONE_ARGS="-p myparam=true -p otherparam=else" # optional
+DRONE_ARGS="-p myparam=true -p otherparam=else --commit=xxxx" # optional
 ```
